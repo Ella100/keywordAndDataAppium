@@ -1,0 +1,13 @@
+platformName: Android
+platformVersion: 7.0
+#udid: S000970047959
+deviceName: baea68220004
+appPackage: com.android.chrome
+appActivity: org.chromium.chrome.browser.ChromeTabbedActivity
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+ip: 127.0.0.1
+port: 4723
+chromedriverExecutable: C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+

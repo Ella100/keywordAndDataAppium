@@ -1,0 +1,291 @@
+2019-10-19 22:12:15 capability_yaml.py[line:32] INFO start app...
+2019-10-19 22:14:55 capability_yaml.py[line:32] INFO start app...
+2019-10-19 22:19:03 capability_yaml.py[line:32] INFO start app...
+2019-10-19 22:21:08 capability_yaml.py[line:32] INFO start app...
+2019-10-19 22:23:10 capability_yaml.py[line:32] INFO start app...
+2019-10-19 22:25:54 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:28:13 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:30:51 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:31:32 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:32:20 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:33:05 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:33:48 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:35:50 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:40:33 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:41:06 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 22:41:25 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 22:41:27 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[不更新]执行通过
+2019-10-19 22:41:38 ObjectMap.py[line:21] INFO com.gree.GreeAndroidApp.GreeAndroidApp:id/DL_ID--该元素未找到
+2019-10-19 22:41:38 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_41_38.png
+2019-10-19 22:41:42 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[输入用户名]执行失败
+2019-10-19 22:41:52 ObjectMap.py[line:21] INFO com.gree.GreeAndroidApp.GreeAndroidApp:id/DL_PassWord--该元素未找到
+2019-10-19 22:41:52 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_41_52.png
+2019-10-19 22:41:55 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[输入密码]执行失败
+2019-10-19 22:42:05 ObjectMap.py[line:21] INFO com.gree.GreeAndroidApp.GreeAndroidApp:id/DL_Login--该元素未找到
+2019-10-19 22:42:05 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_42_05.png
+2019-10-19 22:42:08 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击登录]执行失败
+2019-10-19 22:42:09 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:42:28 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 22:42:34 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 22:42:44 ObjectMap.py[line:21] INFO android:id/button1--该元素未找到
+2019-10-19 22:42:44 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_42_44.png
+2019-10-19 22:42:47 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤3[不更新]执行失败
+2019-10-19 22:42:58 ObjectMap.py[line:21] INFO com.gree.GreeAndroidApp.GreeAndroidApp:id/DL_ID--该元素未找到
+2019-10-19 22:42:58 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_42_58.png
+2019-10-19 22:43:01 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[输入用户名]执行失败
+2019-10-19 22:43:06 ObjectMap.py[line:21] INFO com.gree.GreeAndroidApp.GreeAndroidApp:id/DL_PassWord--该元素未找到
+2019-10-19 22:43:06 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_43_06.png
+2019-10-19 22:44:30 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:44:47 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:48:00 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:48:24 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:48:42 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 22:48:45 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 22:48:46 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[不更新]执行通过
+2019-10-19 22:48:48 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[输入用户名]执行通过
+2019-10-19 22:48:49 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[输入密码]执行通过
+2019-10-19 22:48:50 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[点击登录]执行通过
+2019-10-19 22:48:50 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:49:07 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 22:49:10 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 22:49:10 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[不更新]执行通过
+2019-10-19 22:49:11 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[输入用户名]执行通过
+2019-10-19 22:49:12 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[输入密码]执行通过
+2019-10-19 22:49:14 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[点击登录]执行通过
+2019-10-19 22:52:05 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:52:21 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_21.png
+2019-10-19 22:52:22 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤1[打开app]执行失败
+2019-10-19 22:52:25 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_25.png
+2019-10-19 22:52:27 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤2[等待]执行失败
+2019-10-19 22:52:27 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_27.png
+2019-10-19 22:52:29 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤3[不更新]执行失败
+2019-10-19 22:52:30 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_30.png
+2019-10-19 22:52:32 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[输入用户名]执行失败
+2019-10-19 22:52:33 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_33.png
+2019-10-19 22:52:35 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[输入密码]执行失败
+2019-10-19 22:52:35 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_35.png
+2019-10-19 22:52:38 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击登录]执行失败
+2019-10-19 22:52:38 capability_yaml.py[line:33] INFO start app...
+2019-10-19 22:52:54 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_54.png
+2019-10-19 22:52:55 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤1[打开app]执行失败
+2019-10-19 22:52:58 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_52_58.png
+2019-10-19 22:53:00 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤2[等待]执行失败
+2019-10-19 22:53:00 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_53_00.png
+2019-10-19 22:53:02 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤3[不更新]执行失败
+2019-10-19 22:53:03 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_53_03.png
+2019-10-19 22:53:05 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[输入用户名]执行失败
+2019-10-19 22:53:07 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_53_07.png
+2019-10-19 22:53:09 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[输入密码]执行失败
+2019-10-19 22:53:09 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101922_53_09.png
+2019-10-19 22:53:12 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击登录]执行失败
+2019-10-19 23:07:12 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:07:30 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_07_30.png
+2019-10-19 23:08:18 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:08:33 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:08:36 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:08:37 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:08:37 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_08_37.png
+2019-10-19 23:08:38 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[None]执行失败
+2019-10-19 23:08:38 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_08_38.png
+2019-10-19 23:08:39 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[None]执行失败
+2019-10-19 23:08:39 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_08_39.png
+2019-10-19 23:08:40 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[None]执行失败
+2019-10-19 23:14:03 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:14:19 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:14:22 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:14:23 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:14:34 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:14:34 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_14_34.png
+2019-10-19 23:14:36 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[切换到webview]执行失败
+2019-10-19 23:14:36 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_14_36.png
+2019-10-19 23:14:38 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[None]执行失败
+2019-10-19 23:14:38 PageAction.py[line:94] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_14_38.png
+2019-10-19 23:14:40 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[None]执行失败
+2019-10-19 23:19:34 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:19:50 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_19_50.png
+2019-10-19 23:19:50 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤1[打开app]执行失败
+2019-10-19 23:19:53 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_19_53.png
+2019-10-19 23:19:55 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤2[等待]执行失败
+2019-10-19 23:19:56 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_19_56.png
+2019-10-19 23:19:57 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤3[打开网址]执行失败
+2019-10-19 23:19:57 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_19_57.png
+2019-10-19 23:19:57 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[切换到webview]执行失败
+2019-10-19 23:20:07 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:20:07 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_07.png
+2019-10-19 23:20:09 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[点击我的]执行失败
+2019-10-19 23:20:09 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_09.png
+2019-10-19 23:20:11 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[None]执行失败
+2019-10-19 23:20:11 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_11.png
+2019-10-19 23:20:14 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[None]执行失败
+2019-10-19 23:20:16 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:20:33 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:20:36 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:20:38 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:20:38 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_38.png
+2019-10-19 23:20:38 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[切换到webview]执行失败
+2019-10-19 23:20:48 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:20:48 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_48.png
+2019-10-19 23:20:51 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[点击我的]执行失败
+2019-10-19 23:20:51 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_51.png
+2019-10-19 23:20:53 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[None]执行失败
+2019-10-19 23:20:53 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_20_53.png
+2019-10-19 23:20:54 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[None]执行失败
+2019-10-19 23:21:22 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:21:38 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:21:41 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:21:42 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:21:42 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-19 23:21:42 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_21_42.png
+2019-10-19 23:21:43 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[切换到webview]执行失败
+2019-10-19 23:21:54 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:21:54 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_21_54.png
+2019-10-19 23:22:11 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:22:27 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:22:31 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:22:32 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:22:32 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-19 23:22:32 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_22_32.png
+2019-10-19 23:22:33 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[切换到webview]执行失败
+2019-10-19 23:22:43 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:22:43 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_22_43.png
+2019-10-19 23:22:45 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击我的]执行失败
+2019-10-19 23:22:45 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_22_45.png
+2019-10-19 23:22:47 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[None]执行失败
+2019-10-19 23:22:47 PageAction.py[line:101] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_22_47.png
+2019-10-19 23:22:49 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤8[None]执行失败
+2019-10-19 23:28:44 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:28:59 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_28_59.png
+2019-10-19 23:29:00 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤1[打开app]执行失败
+2019-10-19 23:29:03 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_03.png
+2019-10-19 23:29:05 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤2[等待]执行失败
+2019-10-19 23:29:06 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_06.png
+2019-10-19 23:29:07 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤3[打开网址]执行失败
+2019-10-19 23:29:07 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_07.png
+2019-10-19 23:29:09 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤4[查看]执行失败
+2019-10-19 23:29:09 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_09.png
+2019-10-19 23:29:11 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[切换到webview]执行失败
+2019-10-19 23:29:22 capability_yaml.py[line:33] INFO start app...
+2019-10-19 23:29:39 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-19 23:29:42 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-19 23:29:44 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-19 23:29:44 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-19 23:29:44 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_44.png
+2019-10-19 23:29:45 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤5[切换到webview]执行失败
+2019-10-19 23:29:57 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-19 23:29:57 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_57.png
+2019-10-19 23:29:59 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击我的]执行失败
+2019-10-19 23:29:59 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_29_59.png
+2019-10-19 23:30:01 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[None]执行失败
+2019-10-19 23:30:01 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019101923_30_01.png
+2019-10-19 23:30:02 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤8[None]执行失败
+2019-10-20 07:57:42 capability_yaml.py[line:33] INFO start app...
+2019-10-20 07:58:00 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 07:58:03 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 07:58:05 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 07:58:05 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 07:58:10 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 07:58:20 ObjectMap.py[line:21] INFO //a[@class=""mint-tab-item is-selected""]--该元素未找到
+2019-10-20 07:58:20 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102007_58_20.png
+2019-10-20 07:58:23 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤6[点击我的]执行失败
+2019-10-20 07:58:23 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102007_58_23.png
+2019-10-20 07:58:25 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[None]执行失败
+2019-10-20 07:58:25 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102007_58_25.png
+2019-10-20 07:58:27 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤8[None]执行失败
+2019-10-20 08:01:15 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:01:36 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:01:40 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:01:41 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:01:42 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:01:46 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:01:50 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:02:00 ObjectMap.py[line:21] INFO //div[@class=""icons""]//a[3]//div[1]--该元素未找到
+2019-10-20 08:02:00 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_02_00.png
+2019-10-20 08:02:02 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤7[点击我的]执行失败
+2019-10-20 08:02:02 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_02_02.png
+2019-10-20 08:02:04 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤8[None]执行失败
+2019-10-20 08:02:04 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_02_04.png
+2019-10-20 08:02:06 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤9[None]执行失败
+2019-10-20 08:02:55 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:03:14 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:03:17 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:03:18 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:03:19 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:03:23 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:03:26 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:03:27 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤7[点击我的]执行通过
+2019-10-20 08:03:27 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_03_27.png
+2019-10-20 08:03:29 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤8[None]执行失败
+2019-10-20 08:03:29 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_03_29.png
+2019-10-20 08:03:31 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤9[None]执行失败
+2019-10-20 08:07:43 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:08:03 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:08:06 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:08:08 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:08:08 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:08:12 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:08:16 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:08:17 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤7[点击我的]执行通过
+2019-10-20 08:08:20 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤8[等待]执行通过
+2019-10-20 08:08:20 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤9[点击]执行通过
+2019-10-20 08:08:22 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤10[点击]执行通过
+2019-10-20 08:12:39 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:12:57 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:13:00 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:13:01 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:13:02 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:13:06 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:13:09 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:13:10 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤7[点击我的]执行通过
+2019-10-20 08:13:13 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤8[等待]执行通过
+2019-10-20 08:13:14 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤9[点击]执行通过
+2019-10-20 08:13:14 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤10[点击]执行通过
+2019-10-20 08:13:16 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤11[点击]执行通过
+2019-10-20 08:13:16 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤12[点击]执行通过
+2019-10-20 08:13:16 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_13_16.png
+2019-10-20 08:13:18 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤13[点击]执行失败
+2019-10-20 08:13:18 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_13_18.png
+2019-10-20 08:13:19 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤14[点击]执行失败
+2019-10-20 08:13:20 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤15[点击]执行通过
+2019-10-20 08:14:17 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:14:34 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:14:38 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:14:39 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:14:39 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:14:43 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:14:46 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:14:47 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤7[点击我的]执行通过
+2019-10-20 08:14:50 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤8[等待]执行通过
+2019-10-20 08:14:51 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤9[点击]执行通过
+2019-10-20 08:14:51 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_14_51.png
+2019-10-20 08:14:52 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤10[点击]执行失败
+2019-10-20 08:15:03 ObjectMap.py[line:21] INFO //*[@id="directorder"]--该元素未找到
+2019-10-20 08:15:03 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_15_03.png
+2019-10-20 08:15:04 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤11[点击]执行失败
+2019-10-20 08:15:14 ObjectMap.py[line:21] INFO /html/body/div[1]/div[1]/div[7]/div[2]/div[3]/button--该元素未找到
+2019-10-20 08:15:14 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_15_14.png
+2019-10-20 08:15:16 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤12[点击]执行失败
+2019-10-20 08:15:26 ObjectMap.py[line:21] INFO /html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div/input--该元素未找到
+2019-10-20 08:15:26 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_15_26.png
+2019-10-20 08:15:28 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤13[点击]执行失败
+2019-10-20 08:15:38 ObjectMap.py[line:21] INFO /html/body/div[1]/div[1]/div[2]/div[1]/div[3]/div/input--该元素未找到
+2019-10-20 08:15:38 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_15_38.png
+2019-10-20 08:15:39 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤14[点击]执行失败
+2019-10-20 08:15:50 ObjectMap.py[line:21] INFO /html/body/div[1]/div[1]/div[2]/p[1]--该元素未找到
+2019-10-20 08:15:50 PageAction.py[line:103] INFO image_file:E:\appTest\keywordAndDataAppium\screenshots\登录_2019102008_15_50.png
+2019-10-20 08:15:51 TestWriteDataExcel.py[line:165] INFO 用例[登录]步骤15[点击]执行失败
+2019-10-20 08:15:56 capability_yaml.py[line:33] INFO start app...
+2019-10-20 08:16:14 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤1[打开app]执行通过
+2019-10-20 08:16:17 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤2[等待]执行通过
+2019-10-20 08:16:18 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤3[打开网址]执行通过
+2019-10-20 08:16:19 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤4[查看]执行通过
+2019-10-20 08:16:22 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤5[切换到webview]执行通过
+2019-10-20 08:16:26 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤6[等待]执行通过
+2019-10-20 08:16:26 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤7[点击我的]执行通过
+2019-10-20 08:16:30 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤8[等待]执行通过
+2019-10-20 08:16:30 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤9[点击]执行通过
+2019-10-20 08:16:31 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤10[点击]执行通过
+2019-10-20 08:16:32 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤11[点击]执行通过
+2019-10-20 08:16:33 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤12[点击]执行通过
+2019-10-20 08:16:34 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤13[点击]执行通过
+2019-10-20 08:16:35 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤14[点击]执行通过
+2019-10-20 08:16:35 TestWriteDataExcel.py[line:173] INFO 用例[登录]步骤15[点击]执行通过
