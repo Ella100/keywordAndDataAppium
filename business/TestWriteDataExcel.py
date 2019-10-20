@@ -3,16 +3,34 @@ from common.ParseExcel import ParseExcel
 from config.VarConfig import *
 import time
 import traceback
+import os
 
 
-# 创建解析Excel对象
-excelObj = ParseExcel()
+# 创建excel对象列表
+excelList = []
 
-# 将Excel数据文件加载到内存
-excelObj.loadWorkBook(dataFilePath)
+# 获取用例目录下的所有excel
+listDir = os.listdir(dataFilePath)
+# 获取到的用例文件列表
+print("获取到的用例文件列表:", listDir)
+if listDir.__len__() > 0:
+    for item in listDir:
+        # 正在遍历的excel文件
+        print("正在遍历的excel文件:", item)
+        # 创建解析Excel对象
+        excelObj = ParseExcel()
+        #excel 路径
+        print("正在加载的excel文件路径：", dataFilePath + "\\" + item)
+        # 将Excel数据文件加载到内存
+        excelObj.loadWorkBook(dataFilePath + "\\" + item)
+        excelList.append(excelObj)
+
+print(excelList)
+
+
 
 # 用例或用例步骤执行结束后，向Excel中写执行结果信息
-def writeTestResult(sheetObj,rowNo,colsNo,testResult,
+def writeTestResult(excelObj, sheetObj,rowNo,colsNo,testResult,
                     errorInfo=None,picPath=None):
     # 测试通过结果信息为绿色，失败为红色
     colorDict = {"pass":"green","faild":"red"}
@@ -66,7 +84,7 @@ def writeTestResult(sheetObj,rowNo,colsNo,testResult,
         print("写excel错误", traceback.print_exc())
 
 
-def dataDriverFun(dataSourceSheetObj,caseStepSheetName):
+def dataDriverFun(excelObj, dataSourceSheetObj,caseStepSheetName):
     try:
         # 通过sheet名称获取表单对象
         stepSheetObj = excelObj.getSheetByName(caseStepSheetName)
@@ -159,14 +177,14 @@ def dataDriverFun(dataSourceSheetObj,caseStepSheetName):
                         # 获取详细的异常堆栈信息
                         errorInfo = traceback.format_exc()
                         # 在测试步骤sheet中写入失败信息
-                        writeTestResult(stepSheetObj, step, "caseStep", "faild", errorInfo, capturePic)
+                        writeTestResult(excelObj, stepSheetObj, step, "caseStep", "faild", errorInfo, capturePic)
 
                         logging.info("用例[%s]步骤%d[%s]执行失败" % \
                                      (caseStepSheetName, step - 1, stepRow[testStep_testStepDescribe - 1].value))
 
                     else:
                         # 在测试步骤Sheet中写入成功信息
-                        writeTestResult(stepSheetObj, step, "caseStep", "pass")
+                        writeTestResult(excelObj, stepSheetObj, step, "caseStep", "pass")
                         # 每成功一步，successfulSteps变量自增1
                         successfulSteps += 1
                         logging.info("用例[%s]步骤%d[%s]执行通过" % \
@@ -176,12 +194,12 @@ def dataDriverFun(dataSourceSheetObj,caseStepSheetName):
                     successDatas += 1
                     # 如果成功执行的步骤数等于步骤表中给出的步骤数
                     # 说明第 idx+2 行的数据执行通过，写入通过信息
-                    writeTestResult(sheetObj=dataSourceSheetObj,
+                    writeTestResult(excelObj, sheetObj=dataSourceSheetObj,
                                     rowNo = idx +2,colsNo = "dataSheet",
                                     testResult="pass")
                 else:
                     # 写入失败信息
-                    writeTestResult(sheetObj=dataSourceSheetObj,
+                    writeTestResult(excelObj, sheetObj=dataSourceSheetObj,
                                     rowNo=idx+2,colsNo="dataSheet",
                                     testResult="faild")
         if requireDatas == successDatas:
@@ -194,9 +212,9 @@ def dataDriverFun(dataSourceSheetObj,caseStepSheetName):
         raise e
 
 
-def TestKeyword(caseName,caseStepSheetName,idx):
+def TestKeyword(excelObj, caseName,caseStepSheetName,idx):
     try:
-        caseSheet = excelObj.getSheetByName(caseName)
+        caseSheet = excelObj.getSheetByName("测试用例")
         stepSheet = excelObj.getSheetByName(caseStepSheetName)
 
         # 获取步骤sheet中步骤数
@@ -265,14 +283,14 @@ def TestKeyword(caseName,caseStepSheetName,idx):
                 # 获取详细的异常堆栈信息
                 errorInfo = traceback.format_exc()
                 # 在测试步骤sheet中写入失败信息
-                writeTestResult(stepSheet,step,"caseStep","faild",errorInfo,capturePic)
+                writeTestResult(excelObj, stepSheet,step,"caseStep","faild",errorInfo,capturePic)
 
                 logging.info("用例[%s]-[%s]步骤%d[%s]执行失败" % \
                              (caseName,caseStepSheetName,step-1,stepRow[testStep_testStepDescribe -1 ].value) )
 
             else:
                 # 在测试步骤Sheet中写入成功信息
-                writeTestResult(stepSheet,step,"caseStep","pass")
+                writeTestResult(excelObj, stepSheet,step,"caseStep","pass")
                 # 每成功一步，successfulSteps变量自增1
                 successfulSteps +=1
                 logging.info("用例[%s]-[%s]步骤%d[%s]执行通过" % \
@@ -280,19 +298,20 @@ def TestKeyword(caseName,caseStepSheetName,idx):
         if successfulSteps == stepNum -1:
             # 当测试用例步骤sheet中所有步骤都执行成功
             # 此测试用例执行通过，然后将成功信息写入 测试用例工作表中
-            writeTestResult(caseSheet,idx+2,"testCase","pass")
+            writeTestResult(excelObj, caseSheet,idx+2,"testCase","pass")
 
             return 1
         else:
-            writeTestResult(caseSheet,idx+2,"testCase","faild")
+            writeTestResult(excelObj, caseSheet,idx+2,"testCase","faild")
             return 0
 
     except Exception as e:
         # 打印详细的异常堆栈信息
         print(traceback.print_exc())
 
-if __name__ == "__main__":
-    caseSheet = excelObj.getSheetByName("登入名和密码")
-    caseStepName = "登录"
-
-    dataDriverFun(caseSheet,caseStepName)
+# if __name__ == "__main__":
+    # if excelList.__len__() > 0:
+    #     for item in excelList:
+    #         caseSheet = item.getSheetByName("测试数据")
+    #         caseStepName = "测试步骤"
+    #         dataDriverFun(item, caseSheet, caseStepName)

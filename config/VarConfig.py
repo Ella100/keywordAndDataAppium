@@ -6,7 +6,7 @@ parentDirPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 screenPicturesDir = parentDirPath +"\\screenshots\\"
 
 # 测试数据文件存放绝对路径
-dataFilePath = parentDirPath + "\\data\\考研帮登入.xlsx"
+dataFilePath = parentDirPath + "\\data"
 
 # 测试数据文件中，测试用例表中部分列对应的数字序号
 
